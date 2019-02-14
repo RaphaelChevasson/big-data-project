@@ -21,12 +21,12 @@ We will therefore briefly describe the architecture of the project:
 ## How to use
 ### The first time :
  - see [how te create user on the hdfs machine](how_to_create_user_on_hdfs_machine.md) and [how to setup the mongodb_machine](how_to_setup_the_mongodb_machine.md)
- - push [the prediction script](production/train_and_test.py) and [dependency file](python_dependencies.txt) on the cloud machine
+ - push [the prediction script](production/train_and_test.py) and [dependency file](production/python_dependencies.txt) on the cloud machine
 ### Then :
 Use anyone of the four shell scripts (`*.sh`) contained in the [`production/`](production/) folder.  
 These scripts always consists of two parts: variables you can change (where to connect, file to transfer), then the code itself.  
 Usually, they are used in this order:
-- [put_data_from_here_to_hdfs.sh](put_data_from_here_to_hdfs.sh) (if you need it)
-- [put_data_from_hdfs_to_cloud.sh](put_data_from_hdfs_to_cloud.sh)
-- [predict_on_cloud.sh](predict_on_cloud.sh)
-- [put_data_from_cloud_to_mongodb.sh](put_data_from_cloud_to_mongodb.sh)
+- [put_data_from_here_to_hdfs.sh](production/put_data_from_here_to_hdfs.sh) (if you need it)
+- [put_data_from_hdfs_to_cloud.sh](production/put_data_from_hdfs_to_cloud.sh)
+- [predict_on_cloud.sh](production/predict_on_cloud.sh)
+- [put_data_from_cloud_to_mongodb.sh](production/put_data_from_cloud_to_mongodb.sh)
