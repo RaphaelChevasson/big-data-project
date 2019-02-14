@@ -14,7 +14,7 @@ We will therefore briefly describe the architecture of the project:
 * The last step is to organize and store these predictions in a local MongoDB database by repatriating the data
 
 ## Architecture
-![alt text](https://raw.githubusercontent.com/RaphaelChevasson/big-data-project/master/images/architecture.png)
+![alt text](https://raw.githubusercontent.com/RaphaelChevasson/big-data-project/master/images/Architecture.png)
 
 ## How to use
 See :
